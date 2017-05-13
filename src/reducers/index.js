@@ -1,3 +1,9 @@
-export default ( state = {}, action ) => {
-    return state
+const initialState = {
+  "todos": [
+    "hoge", "fuga"
+  ]
+}
+
+export default (state = initialState, action) => {
+  return state
 }
